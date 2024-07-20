@@ -1,0 +1,14 @@
+{
+    "name": "Motivateme",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Display a new motivational quote each time you click the extension icon.",
+    "icons": {
+        "128": "logo.png"
+      },
+      "action": {
+        "default_popup": "popup.html"
+      },
+      "permissions": 
+       ["activeTab"]
+    }
